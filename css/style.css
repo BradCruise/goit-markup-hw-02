@@ -1,0 +1,63 @@
+.logo {
+
+        display: inline-flex;
+        height: 24px;
+        align-items: center;
+        flex-shrink: 0;
+}
+
+.logoweb {
+
+    display: inline-flex;
+        height: 24px;
+        align-items: center;
+        flex-shrink: 0;
+
+        color: var(--iris, #4D5AE5);
+        width: 44px;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+}
+
+.logostudio {
+
+    display: inline-flex;
+        height: 24px;
+        align-items: center;
+        flex-shrink: 0;
+
+        color: var(--navyblue, #2E2F42);
+        width: 71px;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+}
+
+.navlist {
+
+        color: var(--navyblue, #2E2F42);
+        list-style-type: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        text-decoration: none;
+
+}
