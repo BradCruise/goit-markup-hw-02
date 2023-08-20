@@ -8,7 +8,7 @@
 
 .logoweb {
 
-    display: inline-flex;
+        display: inline-flex;
         height: 24px;
         align-items: center;
         flex-shrink: 0;
@@ -20,7 +20,6 @@
         font-style: normal;
         font-weight: 800;
         line-height: 21px;
-        /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
@@ -29,7 +28,7 @@
 
 .logostudio {
 
-    display: inline-flex;
+        display: inline-flex;
         height: 24px;
         align-items: center;
         flex-shrink: 0;
@@ -41,7 +40,6 @@
         font-style: normal;
         font-weight: 800;
         line-height: 21px;
-        /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
@@ -60,4 +58,190 @@
         letter-spacing: 0.32px;
         text-decoration: none;
 
+}
+
+a.navlist:hover {
+
+        color: var(--iris, #4D5AE5);
+}
+
+.addlist {
+
+        color: var(--slate, #434455);
+        list-style-type: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        text-decoration: none;
+
+}
+
+a.addlist:hover {
+
+        color: var(--iris, #4D5AE5);
+
+    }
+
+.hero {
+
+        background: var(--navyblue, #2E2F42);
+}
+
+h1 {
+
+        color: var(--white, #FFF);
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Roboto;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+}
+
+.button {
+
+     
+        color: var(--white, #FFF);
+        background: var(--iris, #4D5AE5);
+    
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.64px;
+}
+
+.features {
+
+        list-style-type: none;
+        color: var(--slate, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+h3 {
+
+        color: var(--navyblue, #2E2F42);
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+}
+
+.teams {
+
+    background: var(--cloud, #F4F4FD);
+}
+
+h2 {
+
+        color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
+.images {
+
+        list-style-type: none;
+}
+
+.team-list {
+
+        list-style-type: none;
+}
+
+.team-name {
+
+        color: var(--navyblue, #2E2F42);
+        text-align: center;
+}
+
+.team-jobs {
+
+        color: var(--slate, #434455);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+
+footer {
+
+    background: var(--navyblue, #2E2F42);
+
+    color: var(--cloud, #F4F4FD);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.fwebstudio {
+
+        display: inline-flex;
+        height: 24px;
+        align-items: center;
+        flex-shrink: 0;
+}
+
+.fweb {
+
+        display: inline-flex;
+        height: 24px;
+        align-items: center;
+        flex-shrink: 0;
+    
+        color: var(--iris, #4D5AE5);
+        width: 44px;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+
+.fstudio {
+
+        display: inline-flex;
+        height: 24px;
+        align-items: center;
+        flex-shrink: 0;
+    
+        color: var(--cloud, #F4F4FD);
+        width: 71px;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
 }
