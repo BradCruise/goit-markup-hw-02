@@ -25,6 +25,7 @@
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
+        cursor: default;
 
 }
 
@@ -45,6 +46,7 @@
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
+        cursor: default;
 
 }
 
@@ -59,6 +61,7 @@
         line-height: 24px;
         letter-spacing: 0.32px;
         text-decoration: none;
+        cursor: default;
 
 }
 
@@ -78,6 +81,7 @@ a.navlist:hover {
         line-height: 24px;
         letter-spacing: 0.32px;
         text-decoration: none;
+        cursor: default;
 
 }
 
