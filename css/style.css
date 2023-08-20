@@ -231,6 +231,7 @@ footer {
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
+        cursor: default;
 }
 
 .fstudio {
@@ -250,6 +251,7 @@ footer {
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
+        cursor: default;
 }
 
 .filters {
