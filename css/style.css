@@ -1,4 +1,14 @@
+:root {
 
+        --iris: #4D5AE5;
+        --navy-blue: #2E2F42;
+        --slate: #434455;
+        --white: #FFF;
+        --cloud: #F4F4FD;
+        --ocean: #404BBF;
+        --cornflower: #E7E9FC;
+        
+}
 
 .logo {
 
@@ -15,7 +25,7 @@
         align-items: center;
         flex-shrink: 0;
 
-        color: var(--iris, #4D5AE5);
+        color: var(--iris);
         width: 44px;
         font-family: Raleway;
         font-size: 18px;
@@ -36,7 +46,7 @@
         align-items: center;
         flex-shrink: 0;
 
-        color: var(--navyblue, #2E2F42);
+        color: var(--navy-blue);
         width: 71px;
         font-family: Raleway;
         font-size: 18px;
@@ -52,7 +62,7 @@
 
 .navlist {
 
-        color: var(--navyblue, #2E2F42);
+        color: var(--navy-blue);
         list-style-type: none;
         font-family: Roboto;
         font-size: 16px;
@@ -67,12 +77,12 @@
 
 a.navlist:hover {
 
-        color: var(--iris, #4D5AE5);
+        color: var(--iris);
 }
 
 .addlist {
 
-        color: var(--slate, #434455);
+        color: var(--slate);
         list-style-type: none;
         font-family: Roboto;
         font-size: 16px;
@@ -87,18 +97,18 @@ a.navlist:hover {
 
 a.addlist:hover {
 
-        color: var(--iris, #4D5AE5);
+        color: var(--iris);
 
     }
 
 .hero {
 
-        background: var(--navyblue, #2E2F42);
+        background: var(--navy-blue);
 }
 
 h1 {
 
-        color: var(--white, #FFF);
+        color: var(--white);
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: Roboto;
@@ -112,8 +122,8 @@ h1 {
 .button {
 
      
-        color: var(--white, #FFF);
-        background: var(--iris, #4D5AE5);
+        color: var(--white);
+        background: var(--iris);
     
         font-family: Roboto;
         font-size: 16px;
@@ -126,7 +136,7 @@ h1 {
 .features {
 
         list-style-type: none;
-        color: var(--slate, #434455);
+        color: var(--slate);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -137,7 +147,7 @@ h1 {
 
 h3 {
 
-        color: var(--navyblue, #2E2F42);
+        color: var(--navy-blue);
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
@@ -148,12 +158,12 @@ h3 {
 
 .teams {
 
-    background: var(--cloud, #F4F4FD);
+    background: var(--cloud);
 }
 
 h2 {
 
-        color: var(--navyblue, #2E2F42);
+        color: var(--navy-blue);
         text-align: center;
         font-family: Roboto;
         font-size: 36px;
@@ -176,13 +186,13 @@ h2 {
 
 .team-name {
 
-        color: var(--navyblue, #2E2F42);
+        color: var(--navy-blue);
         text-align: center;
 }
 
 .team-jobs {
 
-        color: var(--slate, #434455);
+        color: var(--slate);
         text-align: center;
         font-family: Roboto;
         font-size: 16px;
@@ -195,9 +205,9 @@ h2 {
 
 footer {
 
-    background: var(--navyblue, #2E2F42);
+    background: var(--navy-blue);
 
-    color: var(--cloud, #F4F4FD);
+    color: var(--cloud);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -221,7 +231,7 @@ footer {
         align-items: center;
         flex-shrink: 0;
     
-        color: var(--iris, #4D5AE5);
+        color: var(--iris);
         width: 44px;
         font-family: Raleway;
         font-size: 18px;
@@ -241,7 +251,7 @@ footer {
         align-items: center;
         flex-shrink: 0;
     
-        color: var(--cloud, #F4F4FD);
+        color: var(--cloud);
         width: 71px;
         font-family: Raleway;
         font-size: 18px;
@@ -261,29 +271,27 @@ footer {
 
 .filters-button {
 
-        color: var(--iris, #4D5AE5);
+        color: var(--iris);
         text-align: center;
-        /* Button Text */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        /* 150% */
         letter-spacing: 0.64px;
         
         border-radius: 4px;
-        border: 1px solid var(--cornflower, #E7E9FC);
-        background: var(--cloud, #F4F4FD);
+        border: 1px solid var(--cornflower);
+        background: var(--cloud)
 
         cursor: pointer;
 }
 
 .filters-button:hover {
 
-        color: var(--white, #FFF);
+        color: var(--white);
         border-radius: 4px;
-        background: var(--ocean, #404BBF);
+        background: var(--ocean);
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 
 }
