@@ -7,7 +7,7 @@
         --cloud: #F4F4FD;
         --ocean: #404BBF;
         --cornflower: #E7E9FC;
-        
+
 }
 
 .logo {
@@ -282,8 +282,7 @@ footer {
         
         border-radius: 4px;
         border: 1px solid var(--cornflower);
-        background: var(--cloud)
-
+        background: var(--cloud);
         cursor: pointer;
 }
 
