@@ -10,36 +10,7 @@
 
 }
 
-.logo {
-
-        display: inline-flex;
-        height: 24px;
-        align-items: center;
-        flex-shrink: 0;
-}
-
-.logoweb {
-
-        display: inline-flex;
-        height: 24px;
-        align-items: center;
-        flex-shrink: 0;
-
-        color: var(--iris);
-        width: 44px;
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
-        cursor: default;
-
-}
-
-.logostudio {
+.header-logo {
 
         display: inline-flex;
         height: 24px;
@@ -60,7 +31,28 @@
 
 }
 
-.navlist {
+.iris {
+
+        color: var(--iris);
+
+        display: inline-flex;
+        height: 24px;
+        align-items: center;
+        flex-shrink: 0;
+
+        width: 44px;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: default;
+}
+
+.nav {
 
         color: var(--navy-blue);
         list-style-type: none;
@@ -73,14 +65,52 @@
         text-decoration: none;
         cursor: default;
 
+
 }
 
-a.navlist:hover {
+.nav-list {
+
+        text-decoration: none;
+        cursor: default;
+
+}
+
+.nav-list-item {
+
+        color: var(--navy-blue);
+        list-style-type: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        text-decoration: none;
+        cursor: default;
+}
+
+.nav-link {
+
+        color: var(--navy-blue);
+        list-style-type: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        text-decoration: none;
+        cursor: default;
+}
+
+a.nav-link:hover {
 
         color: var(--iris);
+        cursor: default;
 }
 
-.addlist {
+
+.address {
 
         color: var(--slate);
         list-style-type: none;
@@ -92,12 +122,44 @@ a.navlist:hover {
         letter-spacing: 0.32px;
         text-decoration: none;
         cursor: default;
-
 }
 
-a.addlist:hover {
+.address-list {
+
+        text-decoration: none;
+        cursor: default;
+}
+
+.address-list-item {
+
+        color: var(--slate);
+        list-style-type: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        cursor: default;
+}
+
+.address-link {
+
+        color: var(--slate);
+        list-style-type: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        cursor: default;
+}
+
+a.address-link:hover {
 
         color: var(--iris);
+        cursor: default;
 
     }
 
@@ -216,41 +278,14 @@ footer {
     letter-spacing: 0.32px;
 }
 
-.fwebstudio {
+
+.footer-logo {
 
         display: inline-flex;
         height: 24px;
         align-items: center;
         flex-shrink: 0;
-}
 
-.fweb {
-
-        display: inline-flex;
-        height: 24px;
-        align-items: center;
-        flex-shrink: 0;
-    
-        color: var(--iris);
-        width: 44px;
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
-        cursor: default;
-}
-
-.fstudio {
-
-        display: inline-flex;
-        height: 24px;
-        align-items: center;
-        flex-shrink: 0;
-    
         color: var(--cloud);
         width: 71px;
         font-family: Raleway;
@@ -264,7 +299,7 @@ footer {
         cursor: default;
 }
 
-.filters {
+.filters-list {
 
         list-style: none;
 }
@@ -293,4 +328,20 @@ footer {
         background: var(--ocean);
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 
+}
+
+.projects-list {
+
+        list-style: none;
+}
+
+.projects-list-item {
+
+        color: var(--slate);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
 }
