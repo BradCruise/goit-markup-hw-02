@@ -34,7 +34,7 @@ a {
 
         color: var(--navy-blue);
         width: 71px;
-        font-family: Raleway;
+        font-family: 'Raleway';
         font-size: 18px;
         font-weight: 800;
         line-height: 21px;
@@ -178,6 +178,7 @@ a.address-link:hover {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.64px;
+        
 }
 
 .features {
@@ -187,12 +188,14 @@ a.address-link:hover {
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.32px;
+        
 }
 
 .features-title {
 
         color: var(--navy-blue);
         text-transform: capitalize;
+        
 }
 
 
@@ -202,6 +205,16 @@ a.address-link:hover {
 }
 
 .team-title {
+
+        color: var(--navy-blue);
+        text-align: center;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
+.images-title {
 
         color: var(--navy-blue);
         text-align: center;
@@ -257,7 +270,7 @@ footer {
 
         color: var(--cloud);
         width: 71px;
-        font-family: Raleway;
+        font-family: 'Raleway';
         font-size: 18px;
         font-weight: 800;
         line-height: 21px;
