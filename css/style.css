@@ -10,6 +10,21 @@
 
 }
 
+body {
+
+        font-family: 'Roboto', sans-serif;
+}
+
+address {
+
+        font-style: normal;
+}
+
+a {
+
+        text-decoration: none;
+}
+
 .header-logo {
 
         display: inline-flex;
@@ -21,12 +36,10 @@
         width: 71px;
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
         font-weight: 800;
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        text-decoration: none;
         cursor: default;
 
 }
@@ -43,12 +56,10 @@
         width: 44px;
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
         font-weight: 800;
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        text-decoration: none;
         cursor: default;
 }
 
@@ -56,13 +67,10 @@
 
         color: var(--navy-blue);
         list-style-type: none;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.32px;
-        text-decoration: none;
         cursor: default;
 
 
@@ -70,7 +78,6 @@
 
 .nav-list {
 
-        text-decoration: none;
         cursor: default;
 
 }
@@ -79,13 +86,10 @@
 
         color: var(--navy-blue);
         list-style-type: none;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.32px;
-        text-decoration: none;
         cursor: default;
 }
 
@@ -93,13 +97,10 @@
 
         color: var(--navy-blue);
         list-style-type: none;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.32px;
-        text-decoration: none;
         cursor: default;
 }
 
@@ -114,19 +115,14 @@ a.nav-link:hover {
 
         color: var(--slate);
         list-style-type: none;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
-        text-decoration: none;
         cursor: default;
 }
 
 .address-list {
 
-        text-decoration: none;
         cursor: default;
 }
 
@@ -134,10 +130,7 @@ a.nav-link:hover {
 
         color: var(--slate);
         list-style-type: none;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
         cursor: default;
@@ -147,10 +140,7 @@ a.nav-link:hover {
 
         color: var(--slate);
         list-style-type: none;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
         cursor: default;
@@ -168,15 +158,12 @@ a.address-link:hover {
         background: var(--navy-blue);
 }
 
-h1 {
+.hero-title {
 
         color: var(--white);
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Roboto;
         font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
         line-height: 60px;
         letter-spacing: 1.12px;
 }
@@ -187,9 +174,7 @@ h1 {
         color: var(--white);
         background: var(--iris);
     
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.64px;
@@ -199,38 +184,28 @@ h1 {
 
         list-style-type: none;
         color: var(--slate);
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
 }
 
-h3 {
+.features-title {
 
         color: var(--navy-blue);
-        font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
+        text-transform: capitalize;
 }
+
 
 .teams {
 
-    background: var(--cloud);
+        background: var(--cloud);
 }
 
-h2 {
+.team-title {
 
         color: var(--navy-blue);
         text-align: center;
-        font-family: Roboto;
         font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
         line-height: 40px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
@@ -256,10 +231,7 @@ h2 {
 
         color: var(--slate);
         text-align: center;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
 }
@@ -267,15 +239,12 @@ h2 {
 
 footer {
 
-    background: var(--navy-blue);
+        background: var(--navy-blue);
 
-    color: var(--cloud);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+        color: var(--cloud);
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.32px;
 }
 
 
@@ -290,12 +259,10 @@ footer {
         width: 71px;
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
         font-weight: 800;
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        text-decoration: none;
         cursor: default;
 }
 
@@ -308,9 +275,7 @@ footer {
 
         color: var(--iris);
         text-align: center;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.64px;
@@ -338,10 +303,16 @@ footer {
 .projects-list-item {
 
         color: var(--slate);
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
+}
+
+.projects-list-title {
+
+        color: var(--navy-blue);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
 }
