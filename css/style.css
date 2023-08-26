@@ -90,7 +90,7 @@ button {
 
 a.nav-link:hover {
 
-        color: var(--iris);
+        color: var(--ocean);
         
 }
 
@@ -122,7 +122,7 @@ a.nav-link:hover {
 
 a.address-link:hover {
 
-        color: var(--iris);
+        color: var(--ocean);
 
     }
 
@@ -156,6 +156,14 @@ a.address-link:hover {
         gap: 10px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         
+}
+
+.hero-button:hover {
+
+        color: var(--white);
+        border-radius: 4px;
+        background: var(--ocean, #404BBF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .features-item-title {
@@ -277,6 +285,7 @@ footer {
 
         color: var(--white);
         border-radius: 4px;
+        border-color: var(--ocean);
         background: var(--ocean);
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 
